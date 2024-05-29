@@ -1,0 +1,87 @@
+.filters-column {
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+}
+  
+.apply-filters-button {
+    margin-top: 10px;
+    width: 100%;
+}
+  
+.book-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 335px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+  
+.book-cover-image {
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+  
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    
+}
+  
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+  
+.card-text {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+  
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+}
+  
+.card-buttons .btn {
+    margin-bottom: 10px;
+}
+  
+.read-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.favorite-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.book-cover-image-large {
+    max-width: 100%;
+    height: auto;
+}
+  
+.large-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+  
+  .back-button {
+    font-size: 1.5rem;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .w-100 {
+    width: 100% !important;
+  }
+  
+  .mb-3 {
+    margin-bottom: 0.5rem !important;
+  }
